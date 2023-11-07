@@ -60,7 +60,7 @@ df_count = pd.read_csv(path + 'df_count_ver_2.csv', sep=',',encoding= 'latin-1')
 df = df_count.merge(df_numeric, on=['WKC','Wijknaam','GMN','YEAR'])
 
 
-#TODO: this is fucked up. Just have a clean dataset upfront. Don't clean it everytime a user opens the dashboard.
+#TODO: I propose to use a clean dataset upfront, opposed to cleaning it everytime a user opens the dashboard.
 
 COSTS_COLUMN_NAME = ['ZVWKOSTENTOTAAL_MEAN', 'ZVWKHUISARTS_MEAN', 'ZVWKHUISARTS_NO_REG_MEAN', 
                      'ZVWKZIEKENHUIS_MEAN','ZVWKFARMACIE_MEAN', 'ZVWKFARMACIE_MEAN', 'ZVWKOSTENPSYCHO_MEAN',
