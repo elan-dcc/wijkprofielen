@@ -1,0 +1,9 @@
+pages/test.py
+env/
+pages/__pycache__/about.cpython-310.pyc
+pages/__pycache__/changelog.cpython-310.pyc
+pages/__pycache__/diabetes.cpython-310.pyc
+pages/__pycache__/neighbourhoods.cpython-310.pyc
+pages/__pycache__/palliative.cpython-310.pyc
+pages/__pycache__/supplydemand.cpython-310.pyc
+pages/__pycache__/young.cpython-310.pyc
