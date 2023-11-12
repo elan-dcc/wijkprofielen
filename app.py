@@ -19,20 +19,22 @@ navbar = dbc.Navbar(
             ),
             dbc.NavbarToggler(id="navbar-toggler", n_clicks=0),
             dbc.Collapse(
-                [
-                    dcc.Link('Neighbourhood', href= '/'),
+                dbc.Nav(
+                    [dcc.Link('Neighbourhood', href= '/'),
                     dcc.Link('Supply vs Demand', href='/supplydemand'),
                     dcc.Link("Diabetes", href="/diabetes"),
                     dcc.Link("Palliative care", href="/palliative"),
-                    dcc.Link("Young care", href="/young")
-                ],
+                    dcc.Link("Young care", href="/young")],
+                    className="ms-auto"
+                ),
                 id="navbar-collapse",
                 is_open=False,
                 navbar=True,
             ),
         ]
     ),
-    id= 'header'
+    id= 'header',
+    className="mb-5"
 )
 
 footer = html.Div([
@@ -41,7 +43,7 @@ footer = html.Div([
                         html.H1('Health Campus Den Haag'),'Turfmarkt 99', html.Br(), '3rd floor', html.Br(), '2511 DP, Den Haag'])
                 ], className= 'footerelement'), 
                 html.Div([
-                    html.Ul([html.Li(dcc.Link('About', href= '/about')), html.Li(dcc.Link('changelog', href= '/changelog'))])
+                    html.Ul([html.Li(dcc.Link('About', href= '/about')), html.Li(dcc.Link('changelog', href= '/changelog')), html.Li("link to Elan?")])
                 ], className= 'footerelement'),
                 html.Div([
                     html.H1('Partners'),
@@ -69,15 +71,14 @@ app.layout = html.Div([navbar,
 # navigation
 @app.callback(
     Output("navbar-collapse", "is_open"),
-    Output("main", "className"),
     [Input("navbar-toggler", "n_clicks")],
     [State("navbar-collapse", "is_open")],
 )
 
 def toggle_navbar_collapse(n, is_open):
     if n:
-        return not is_open, str(is_open)
-    return is_open, str(is_open)
+        return not is_open
+    return is_open
 
 
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color:#f7fbfe;
   font-family: "pt-sans-pro", sans-serif;
@@ -6,7 +7,7 @@ body {
 
 #main {
   font-size: 15px; 
-  padding: 50px 50px;
+  padding: 20px 50px;
   padding-left: 5%;
   padding-right: 5%;
   color:#001158;
@@ -16,7 +17,7 @@ body {
 
 #header{
   background: url("Line.png") no-repeat 0px -250px;
-  height: 168px;
+  min-height: 168px;
   width: 100%;
   display: flex;
 }
@@ -50,16 +51,29 @@ body {
   color: #5cb1eb;
 }
 
-/* Responsive navigation, could be done neater. */
-.True{
-
-  margin-top: 0;
-  transition: margin-top .3s;
+.custom_select{
+  margin: 4px;
+  box-shadow: 0px 0px #ebb36a;
+  border: 1px solid #ebb36a;
+  border-radius: 5px;
 }
 
-.False{
-  margin-top: 110px;
-  transition: margin-top .3s;
+/* Now this allows for responsiveness 😏 */
+
+#select_variable{
+  width: 30%;
+}
+
+#select_region{
+  width: 15%;
+}
+
+#select_neighbourhoods{
+  width: 55%;
+}
+
+#select_container > div{
+  display: inline-block;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -67,23 +81,12 @@ body {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {
-  #navbar-collapse a{
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .False{
-    margin-top: 0;
-  }
-}
-/* End funky navigation */
 
 #footer {
   position: relative;
   width: 100%;
-  padding: 10px 100px 10px 100px;
+  margin-top: 100px;
+  padding: 40px 100px 10px 100px;
   background-color: #001158;
   color: #FFFFFF;
   font-size: 14px;
@@ -110,9 +113,9 @@ body {
 
 #footer h1{
   color: #4766e2;
-  font-size: 15px;
+  font-size: 20px;
   font-family: inherit;
-  margin: 0;
+  margin: 10px 0 20px 0;
   padding: 0;
 }
 
@@ -154,8 +157,14 @@ h4 {
 }
 
 #sliderContainer{
-  margin: 0 15% 0 15%;
+  margin: 0 5% 0 5%;
   padding: 1%;
+  width: 90%;
+}
+
+#slider_select_year{
+  width: auto;
+  display: block;
 }
 
 #drop_municipality_spec_id{
@@ -164,18 +173,19 @@ h4 {
   border-color: #ebb36a;
 }
 
-
 #graphContainer H1{
   font-family: inherit;  
   font-size: medium;
   color: inherit;
   font-weight: 400;
+  font-size: 20px;
 }
 
-#graphContainer H2{
+#graphContainer p{
   font-family: inherit;  
-  font-size: 9px;
+  font-size: 18px;
   color: #000000;
+  margin: 0 0 0 10px;
 }
 
 #leftcell{
@@ -189,6 +199,9 @@ h4 {
   display: inline-block;
 }
 
+#drop_select_year{
+  display: none;
+}
 
 @media only screen and (max-width: 1020px) {
   #leftcell{
@@ -198,6 +211,49 @@ h4 {
   #rightcell{
     width: 100%;
   }
+
+  #select_variable{
+    width: 50%;
+  }
+
+  #select_region{
+    width: 50%;
+  }
+
+  #select_neighbourhoods{
+    width: 100%;
+  }
+
+  #drop_select_year{
+    display: block;
+  }
+
+  #slider_select_year{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .footerelement{
+    width: 50%;
+  }
+
+  #partners{
+    width: 100%;
+  }
+}
+/* Graph style */
+
+#map{
+  height: 466px;
+}
+
+#wijk_trend_fig{
+  height: 400px;
+}
+
+#bar_fig{
+  height: 982px;
 }
 
 /* Boxes */
@@ -210,119 +266,10 @@ h4 {
   box-shadow: 2px 2px 2px #aed8f5;
 }
 
-.box_comment {
-  border-radius: 20px;
-  background-color: #ADD8E6;
-  margin: 10px;
-  padding: 10px;
-  box-shadow: 2px 2px 2px #aed8f5;
-  font-size: small;
-  text-align: center;
-  font-family: "pt-sans-pro";
-}
-
-.box_emissions{
-  border-radius: 20px;
-  background-color: #F9F9F8;    
-  margin: 2px;
-  box-shadow: 2px 2px 2px #F9F9F8;
-  justify-content: center;
-  width: 50%;
-  text-align: center;
-  font-family: "pt-sans-pro";
-}
-/* Drop down */
-#drop_map .VirtualizedSelectFocusedOption {
-  background-color:#ffd100;
-}
-
-#drop_continent .VirtualizedSelectFocusedOption {
-  background-color:#ffd100;
-}
-
-/* Radio buttons */
-.radio {
-  display:flex;
-  justify-content: left;
-  place-content:space-evenly;
-  width: 100%;
-}
-
-.radio input[type="radio"] {
-  opacity: 0;
-  position: absolute;
-}
-
-.radio label {
-  display: table-caption;
-  background-color: #F9F9F8;
-  padding: 5px 5px;
-  font-size: 16px;
-  border: 2px solid #F9F9F8;
-  border-radius: 15px;
-  width: 200%; 
-  text-align: center;
-  font-family: "pt-sans-pro";
-}
-
-.radio input[type="radio"]:checked + label {
-  background-color: #ffd100;              
-  border: 2px solid #F9F9F8;
-}
-
-.radio label:hover {
-  background-color: #F9F9F8;
-  border: 2px solid #F9F9F8;
-}
-/* Z edit */
 .drop_var_id {
   margin: 4px;
   box-shadow: 0px 0px #ebb36a;
   border-color: #ebb36a;
-}
-/* Z end edit */
-
-/* Button-8 new */
-.button-8 {
-  background-color: #e1ecf4;
-  border-radius: 3px;
-  border: 1px solid #7aa7c7;
-  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
-  box-sizing: border-box;
-  color: #39739d;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.15385;
-  margin: 0;
-  outline: none;
-  padding: 8px .8em;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  white-space: nowrap;
-}
-
-.button-8:hover,
-.button-8:focus {
-  background-color: #b3d3ea;
-  color: #2c5777;
-}
-
-.button-8:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
-}
-
-.button-8:active {
-  background-color: #a0c7e4;
-  box-shadow: none;
-  color: #2c5777;
 }
 
 /* Scrollbars */
@@ -339,35 +286,7 @@ h4 {
 }
 
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-
-
-
-@charset "UTF-8";/*!
+/*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
