@@ -1,0 +1,25 @@
+{
+"linechart explanation": "Click the button and legends to know more!",
+"geospat explanation": "Click on a tile to see the trendline!",
+"select variable": "Choose a variable to plot:",
+"select area": "Choose a region to plot:",
+"select neighbourhood": "Choose neighbourhood(s) to plot:",
+"select year": "Select a year",
+"control panel": "Control Panel",
+
+"last update": "Updated in ",
+"neighbourhood": "Neighbourhood",
+"supply and demand": "Supply and Demand",
+"diabetes": "Diabetes",
+"palliative care": "Palliatieve care",
+"pedriatric care": "Pedriatric care",
+"3rd floor": "3rd floor",
+"about": "About",
+"changelog": "Changelog",
+
+"YEAR": "YEAR",
+"Total_Population": "Total_Population",
+"%_Gender_Vrouwen": "%_Gender_Vrouwen",
+"%_0to20": "%_0to20",
+"%_21to40": "%_21to40"
+}
