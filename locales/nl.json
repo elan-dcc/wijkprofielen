@@ -1,0 +1,25 @@
+{
+"linechart explanation": "Klik op de knop en legenda voor meer informatie!",
+"geospat explanation": "Klik op een gebied om de trendlijn te zien!",
+"select variable": "Selecteer een categorie:",
+"select area": "Selecteer een gebied:",
+"select neighbourhood": "Selecteer één of meerdere wijken:",
+"select year": "Selecteer een jaar",
+"control panel": "Controlepaneel",
+
+"last update": "Bijgewerkt in ",
+"neighbourhood": "Wijken",
+"supply and demand": "Vraag en Aanbod",
+"diabetes": "Diabetes",
+"palliative care": "Palliatieve zorg",
+"pedriatric care":  "Pediatrie",
+"3rd floor": "3e verdieping",
+"about": "Informatie",
+"changelog": "Changelog",
+
+"YEAR": "jaar",
+"Total_Population": "Totale Bevolking",
+"%_Gender_Vrouwen": "%_Geslacht_Vrouwen",
+"%_0to20": "%_0naar20",
+"%_21to40": "%_21naar40"
+}
