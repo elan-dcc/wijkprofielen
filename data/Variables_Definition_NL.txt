@@ -1,0 +1,104 @@
+Total_Population:Totale bevolking van de buurt in het gekozen jaar
+Total_ICPCPat_Pop:Totale populatie geregistreerd in de ELAN-patient gegevens van de buurt in het gekozen jaar
+Gender_Mannen:Totaal aantal mannelijke bevolking
+Gender_Vrouwen:Totaal aantal mannelijke bevolking
+0to20:Totaal aantal bevolking met leeftijd tussen 0 en 20
+21to40:Totaal aantal bevolking met leeftijd tussen 21 en 40
+41to60:Totaal aantal bevolking met leeftijd tussen 41 en 60
+61to80:Totaal aantal bevolking met leeftijd tussen 61 en 80
+Above80:Totaal aantal bevolking met leeftijd boven 80
+MajorEthnicity_NativeDutch:Totaal aantal bevolking met Native Dutch Ethnicity
+MajorEthnicity_Western:Totaal aantal bevolking met Western Ethnicity
+MajorEthnicity_NonWestern:Totaal aantal bevolking met Non-western Etniciteit
+MinorEthnicity_Marokko:Totaal aantal inwoners met Marokkaanse etniciteit
+MinorEthnicity_Suriname:Totaal aantal inwoners met Surinaamse etniciteit
+MinorEthnicity_Turkije:Totaal aantal inwoners met Turkse etniciteit
+MinorEthnicity_VoormaligeNederlandseAntillenenAruba:Totaal aantal inwoners met Antillen en Arubaanse etniciteit
+Multiperson_Household:Totaal aantal inwoners met meer dan 1 persoon binnen het huishouden
+HouseholdType_Institutional:Totaal aantal inwoners dat in een institutioneel huishouden woonde
+Employee:Totaal aantal inwoners dat een bron van inkomsten heeft uit het werken als werknemer
+Unemployment_benefit_user:Totaal aantal inwoners dat een bron van inkomsten heeft uit werkloosheidsuitkering
+Welfare_benefit_user:Totaal aantal inwoners dat een bron van inkomsten heeft uit welzijnsuitkering
+Other_social_benefit_user:Totaal aantal inwoners dat een bron van inkomsten uit andere sociale uitkeringen
+Sickness_benefit_user:Totaal aantal inwoners met inkomsten uit ziekte-uitkering
+Pension_benefit_user:Totaal aantal inwoners met inkomsten uit pensioenuitkeringen
+Moving_count_above_1:Totaal aantal inwoners dat meer dan 1 keer verhuist/verhuist
+Lifeevents_count_above_2:Totaal aantal inwoners dat meer dan 1 keer verhuist/verhuist en/of van huishoudstatus verandert (alleenstaand/meerpersoons/gescheiden huishouden)
+Low_Income:Totaal aantal mensen dat tot een lager dan 100 percentiel (van de 1000) van het huishoudinkomen behoort
+Debt_Mortgage:Totaal aantal mensen met functionele schulden - hypotheek, opleidings- en bedrijfsschulden
+Debt_Poor:Totaal aantal mensen dat een wettelijke schuldsanering heeft ontvangen
+Wanbet:Totaal aantal mensen dat de status van wanbetaler van verzekeringen heeft ontvangen (kan niet betalen maandelijkse basisverzekering)
+WMO_user:Totaal aantal personen dat WMO-uitkeringen ontving
+WLZ_user:Totaal aantal personen dat WLZ-uitkeringen ontving
+ZVWKHUISARTS_user:Totaal aantal personen dat ZVWKHUISARTS meer dan 0 heeft
+ZVWKFARMACIE_user:Totaal aantal personen dat ZVWKFARMACIE meer dan 0 heeft
+ZVWKZIEKENHUIS_user:Totaal aantal personen dat ZVWKZIEKENHUIS meer dan 0 heeft
+ZVWKOSTENPSYCHO_user:Totaal aantal personen dat ZVWKOSTENPSYCHO meer dan 0 heeft
+HVZ_Medication_user:Totaal aantal personen met CVD-medicatie op ATC4 (A10* of B01* of C01* of C02* of C03* of C04* of C07* of C08* of C09* of C10*)
+UniqueMed_Count_5:Totaal aantal personen met unieke ATC4-code per persoon groter dan of gelijk aan 5 (polyfarmacie)
+UniqueMed_Count_10:Totaal aantal personen met unieke ATC4-code per persoon groter dan of gelijk aan 10 (polyfarmacie)
+DIAB_Medication_user:Totaal aantal personen met diabetesmedicatie op ATC4 (A10B*)
+BLOEDDRUKV_Medication_user:Totaal aantal personen met bloeddrukverlagende medicatie op ATC4 (C03* of C07* of C08* of C09*)
+CHOL_Medication_user:Totaal aantal personen met cholesterolverlagende medicatie op ATC4 (C10*)
+DIURETICS_Medication_user:Totaal aantal personen met bloeddrukverlagende medicatie op ATC4 (C03*)
+DIURETICS_RAAS_BETA_Medication_user:Totaal aantal mensen met bloeddrukverlagende medicatie op ATC4 (C03* en C07* en C09*)
+OPIOID_Medication_user:Totaal aantal mensen met opioide medicatie op ATC4 (N01A of N02A)
+OPIOID_MULYEARS_Medication_user:Totaal aantal mensen met opioide medicatie op ATC4 (N01A of N02A) gedurende twee opeenvolgende jaren, te beginnen met het huidige en het vorige jaar
+Opioid_user_no_death:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A)
+Opioid_user_no_death_primary:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A)
+Opioid_user_2Years_no_death:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A) gedurende twee opeenvolgende jaren, te beginnen met het huidige en vorig jaar
+Opioid_user_2Years_no_death_primary:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A) gedurende twee opeenvolgende jaren, te beginnen met het huidige en vorig jaar
+Opioid_user_no_death_comb:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A) uit twee gegevens (CBS en ELAN)
+Opioid_user_2Years_no_death_comb:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A) uit twee gegevens (CBS en ELAN) gedurende twee opeenvolgende jaren, beginnend bij het huidige en het vorige jaar
+Hypertensie_patients:Totaal aantal mensen dat in de loop van een jaar de diagnose hypertensie kreeg (DBC-code - Specialistencode | 0320-902)
+COPD_patients:Totaal aantal mensen dat in de loop van een jaar de diagnose COPD kreeg (DBC-code - Specialistencode | 0322-1241)
+Diabetes_I_patients:Totaal aantal mensen dat in de loop van een jaar de diagnose diabetes I kreeg (DBC-code - Specialistencode | 0313-221)
+Diabetes_II_patients:Totaal aantal mensen dat in de loop van een jaar de diagnose diabetes II kreeg (DBC-code - Specialistencode | 0313-222)
+Hartfalen_patients:Totaal aantal mensen dat in een jaar de diagnose Hartfalen kreeg (DBC-code - Specialistencode | 0320-301, 0320-302)
+OMA_patients:Totaal aantal mensen dat in een jaar de diagnose OMA kreeg (DBC-code - Specialistencode | 0302-13)
+Morbus_Parkinson_patients:Totaal aantal mensen dat in een jaar de diagnose Morbus Parkinson kreeg (DBC-code - Specialistencode | 0330-0501)
+Heupfractuur_patients:Totaal aantal mensen dat in een jaar de diagnose Heupfracturen kreeg (DBC-code - Specialistencode | 8418-303)
+BMIUP45_patients:Totaal aantal mensen dat in een jaar de diagnose BMI boven de 45 kreeg (DBC-code - Specialistencode | 0303-342)
+Lung_Cancer_patients:Totaal aantal mensen dat in een jaar de diagnose longkanker kreeg (DBC-code - Specialistencode | 1303-322, ,1304-322)
+Colon_Cancer_patients:Totaal aantal mensen dat in een jaar de diagnose darmkanker kreeg (DBC-code - Specialistencode | 0303-333,0303-334,0303-335)
+Back_pain_patients:Totaal aantal mensen dat in een jaar de diagnose rugpijn kreeg (DBC-code - Specialistencode | 0389-071,0389-072,0389-073)
+ICPC_Hartfalen_patients:Totaal aantal mensen dat in een jaar de diagnose hartfalen kreeg (ICPC-code | K77*)
+Medication_Dependency_patients:Totaal aantal mensen dat gediagnosticeerd met Medicatieverslaving in een jaar (ICPC-code | P18*)
+Alcohol_Dependency_patients:Totaal aantal mensen dat in een jaar de diagnose Alcoholverslaving kreeg (ICPC-code | P15* of P16*)
+Loneliness_patients:Totaal aantal mensen dat in een jaar de diagnose Eenzaamheid kreeg (ICPC-code | Z04.03)
+ICPC_Obesitas_patients:Totaal aantal mensen dat in een jaar de diagnose Obesitas kreeg (ICPC-code | T82*)
+BMI_NormalWeight:Totaal aantal mensen met een BMI van 18,5 tot 25
+BMI_Obese:Totaal aantal mensen met een BMI boven de 30
+BMI_OverWeight:Totaal aantal mensen met een BMI van 25 tot 30
+BMI_UnderWeight:Totaal aantal mensen met een BMI 0 tot 18,5
+Medication_Dependency_3Years_patients:Totaal aantal mensen met de diagnose Medicatieafhankelijkheid in de afgelopen 3 jaar vanaf het huidige jaar (ICPC-code | P18*)
+Medication_Dependency_5Years_patients:Totaal aantal mensen met de diagnose Medicatieafhankelijkheid in de afgelopen 5 jaar vanaf het huidige jaar (ICPC-code | P18*)
+Alcohol_Dependency_3Years_patients:Totaal aantal mensen met de diagnose Alcoholafhankelijkheid in de afgelopen 3 jaar vanaf het huidige jaar (ICPC-code | P15* of P16*)
+Alcohol_Dependency_5Years_patients:Totaal aantal mensen met de diagnose Alcoholafhankelijkheid in de afgelopen 5 jaar vanaf het huidige jaar (ICPC-code | P15* of P16*)
+Loneliness_3Years_patients:Totaal aantal mensen die de afgelopen 3 jaar vanaf het huidige jaar de diagnose Eenzaamheid hebben gekregen (ICPC-code | Z04.03)
+Loneliness_5Years_patients:Totaal aantal mensen dat de afgelopen 5 jaar vanaf het huidige jaar de diagnose Eenzaamheid heeft gekregen (ICPC-code | Z04.03)
+Hartfalen_PrimarynSecondary_patients:Totaal aantal mensen dat in een jaar de diagnose Hartfalen heeft gekregen (ICPC-code | K77* en DBC-code - Specialistencode | 0320-301, 0320-302) uit twee gegevens (CBS en ELAN)
+Primary_care_patients_in_Secondary_care:Totaal aantal mensen dat ooit de eerstelijnszorg heeft bezocht en in het huidige jaar de tweedelijnszorg heeft bezocht
+Proxy_Primary_care_refer_to_Secondary_care:Totaal aantal mensen dat de eerstelijnszorg 1 jaar voordat ze de tweedelijnszorg bezochten in het huidige jaar de eerstelijnszorg heeft bezocht jaar
+JGDHULP_user:Totaal aantal mensen dat ooit het programma "jongerenhulp" heeft ontvangen
+GEDETINEERDENTAB:Totaal aantal mensen dat ooit het programma "GEDETINEERDENTAB" heeft ontvangen
+SHNTAB:Totaal aantal mensen dat ooit het programma "SHNTAB" heeft ontvangen
+HBOPL_Low:Totaal aantal personen met een laag niveau van behaald opleiding (hbopl_1111 of hbopl_1112 of hbopl_1211 of hbopl_1212 of hbopl_1213 of hbopl_1221 of hbopl_1222)
+HBOPL_Mid:Totaal aantal personen met een middelbaar niveau van behaald opleiding (hbopl_2111 of hbopl_2112 of hbopl_2121 of hbopl_2131 of hbopl_2132)
+HBOPL_High:Totaal aantal personen met een hoog niveau van behaald opleiding(hbopl_3111 of hbopl_3112 of hbopl_3113 of hbopl_3212 of hbopl_3213)
+HGOPL_Low:Totaal aantal personen met een laag niveau van gestart opleiding (hgopl_1111 of hgopl_1112 of hgopl_1211 of hgopl_1212 of hgopl_1213 of hgopl_1221 of hgopl_1222)
+HGOPL_Mid:Totaal aantal personen met een middelbaar niveau van gestart opleiding (hgopl_2111 of hgopl_2112 of hgopl_2121 of hgopl_2131 of hgopl_2132)
+HGOPL_High:Totaal aantal personen met een hoog niveau van gestart opleiding (hgopl_3111 of hgopl_3112 of hgopl_3113 of hgopl_3212 of hgopl_3213)
+AGE_MEAN:Gemiddelde leeftijd van de bevolking per regio
+Income_MEAN:Gemiddeld gezinsinkomen van de bevolking per regio, gecorrigeerd voor inflatie door CBS
+Moving_Count_MEAN:Gemiddelde van het aantal mensen dat per regio is verhuisd
+Lifeevents_Count_MEAN:Gemiddelde van het aantal mensen dat is verhuisd en/of van huishoudstatus is veranderd (alleenstaand, getrouwd/partner, scheiding, kinderen of toename van het aantal personen in het huishouden) per regio
+UniqueMed_Count_MEAN:Gemiddeld aantal voorgeschreven unieke medicatiecodes (ATC) per regio
+ZVWKOSTENTOTAAL_MEAN:Gemiddelde totale kosten voor gezondheidszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten)
+ZVWKHUISARTS_MEAN:Gemiddelde kosten voor eerstelijnszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten)
+ZVWKHUISARTS_NO_REG_MEAN:Gemiddelde kosten voor eerstelijnszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten) zonder de kosten voor basisregistratie (NOPZVWKHUISARTSINSCHRIJF) - alleen service kosten
+ZVWKZIEKENHUIS_MEAN:Gemiddelde kosten voor tweedelijnszorg uit basiszorgkosten (ZVW Kosten)
+ZVWKFARMACIE_MEAN:Gemiddelde farmaceutische kosten uit basiszorgkosten (ZVW Kosten)
+ZVWKOSTENPSYCHO_MEAN:Gemiddelde kosten voor psychologische zorg uit basiszorgkosten (ZVW Kosten)
+Primary_care_patients_in_Secondary_care:Eerstelijnszorgpatiënten die ook tweedelijnszorg gebruiken of hebben gebruikt in het huidige jaar *(de waarden worden gedeeld door Total GP-patiënten per regio)
+Proxy_Primary_care_refer_to_Secondary_care:Eerstelijnszorgpatiënten die tweedelijnszorg gebruikten in het huidige jaar maar niet in het voorgaande jaar. proxy voor verwijzingen. *(de waarden worden gedeeld door Total GP-patiënten per regio)
