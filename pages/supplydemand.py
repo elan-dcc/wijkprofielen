@@ -1,6 +1,5 @@
 import dash
 from dash import dcc, html, Input, Output, State, callback
-import dash_daq as daq
 import dash_bootstrap_components as dbc
 import numpy as np
 import pandas as pd
@@ -77,9 +76,9 @@ special_regions = {"Hadoks' area": values_hadoks}
 
 dash.register_page(__name__)
 
-# path = '../data/'
-# path = os.path.join(os.path.dirname(__file__), path).replace("\\","/").replace("pages" + "/../","")
-path= "https://raw.githubusercontent.com/AmmarFaiq/GGDH-Dashboard/main/data/"
+path = '../data/'
+path = os.path.join(os.path.dirname(__file__), path).replace("\\","/").replace("pages" + "/../","")
+# path= "https://raw.githubusercontent.com/AmmarFaiq/GGDH-Dashboard/main/data/"
 
 geo_df= gpd.read_file(path + 'wijk_2023_v0.shp')
 
@@ -89,9 +88,12 @@ geo_df.rename(columns ={'WK_CODE':'WKC'}, inplace = True)
 
 geo_df = geo_df.query("GM_NAAM in @values_all_regions")
 
-geofilepath = requests.get('https://raw.githubusercontent.com/AmmarFaiq/GGDH-Dashboard/main/data/' + 'wijkgeo_file.json')
+# geofilepath = requests.get('https://raw.githubusercontent.com/AmmarFaiq/GGDH-Dashboard/main/data/' + 'wijkgeo_file.json')
+# geofilepath = requests.get(path + 'wijkgeo_file.json')
+# geo_df_fff = json.loads(geofilepath.content)
 
-geo_df_fff = json.loads(geofilepath.content)
+with open((path + 'wijkgeo_file.json'), "r") as infile:
+    geo_df_fff = json.loads(infile.read())
 
 
 
@@ -227,8 +229,8 @@ supply_column = ['Supply Cluster', 'Doctors', 'Nurses', 'Practices']
 layout = html.Div([
             html.Div([
                 html.Div(
-                    dbc.Accordion([
-                        dbc.AccordionItem([
+                    html.Div([html.Button("Region Selection:", id="accordionbutton_sd", className="accordionbutton_open"),
+                        html.Div([
                             html.Div([
                                 html.Div([
                                     html.Label('Choose a region to plot:', id='choose_area_hadoks'),
@@ -268,8 +270,8 @@ layout = html.Div([
                                         style= {'margin': '4px', 'box-shadow': '0px 0px #ebb36a', 'border-color': '#ebb36a'}),
                                         ], style={'width': '70%','display': 'inline-block'})
                                     ])
-                        ],title="Region Selection :")
-                    ], className = 'box')
+                        ], id="control_panel_sd", className="accordeon_open")  #title="Region Selection :")
+                    ], id="accordionheader", className = 'box')
                 ),                
                     
                 html.Div([
@@ -413,7 +415,7 @@ layout = html.Div([
 
                         ], className='box', style={'position':'relative'})  
                     ]),           
-                ], style={'width': '100%', 'float': 'left', 'box-sizing': 'border-box'}),
+                ], style={'width': '100%', 'box-sizing': 'border-box'}),
             ], style={'display': 'block'}),      
     ], className='main'),
         
@@ -421,6 +423,22 @@ layout = html.Div([
 
 
 #------------------------------------------------------ Callbacks ------------------------------------------------------
+#Custom accordeon
+@callback(
+    Output("control_panel_sd", "className"),
+    Output("accordionbutton_sd", "className"),
+    [Input("accordionbutton_sd", "n_clicks")],
+    [State("control_panel_sd", "className")],
+    prevent_initial_call=True
+)
+
+def toggle_navbar_collapse(n, classname):
+    if classname == "accordeon_open":
+        return "accordeon_collapsed", "accordionbutton_closed"
+    return "accordeon_open", "accordionbutton_open"
+
+
+
 
 @callback(
     [ 
@@ -846,9 +864,9 @@ def update_graph_bivariate_map_hadoks(
 
     # Override some variables
     conf['plot_title'] = ''
-    conf['width'] = 1450  # Width of the final map container
+    conf['width'] = 1100  # Width of the final map container
     conf['ratio'] = 0.5  # Ratio of height to width
-    conf['height'] = 300 #conf['width'] * conf['ratio']  # Width of the final map container
+    conf['height'] = 350 #conf['width'] * conf['ratio']  # Width of the final map container
     conf['center_lat'] = 52.1  # Latitude of the center of the map
     conf['center_lon'] = 4.24  # Longitude of the center of the map
     conf['map_zoom'] = 9  # Zoom factor of the map
@@ -903,7 +921,7 @@ def update_graph_bivariate_map_hadoks(
     fig.update_layout(geo=dict(bgcolor= 'rgba(0,0,0,0)', lakecolor='#4E5D6C'),
                                 autosize=False,
                                   font = {"size": 9, "color":"black"},
-                                  margin={"r":0,"t":10,"l":10,"b":50},
+                                  margin={"r":0,"t":10,"l":10,"b":10},
                                   paper_bgcolor='white'
                                   )
     

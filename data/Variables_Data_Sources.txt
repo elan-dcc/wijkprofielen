@@ -1,0 +1,105 @@
+Total_Population:CBS data derived from GWBTAB and GBAADRESOBJECTBUS
+Total_ICPCPat_Pop:ELAN data derived from PAT 
+Gender_Mannen:CBS data derived from GBAPERSOONTAB - GBAGESLACHT
+Gender_Vrouwen:CBS data derived from GBAPERSOONTAB - GBAGESLACHT
+0to20:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG
+21to40:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG 
+41to60:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG
+61to80:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG
+Above80:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG
+MajorEthnicity_NativeDutch:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MajorEthnicity_Other:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MajorEthnicity_Western:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MajorEthnicity_NonWestern:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MinorEthnicity_Marokko:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MinorEthnicity_Suriname:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MinorEthnicity_Turkije:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+MinorEthnicity_VoormaligeNederlandseAntillenenAruba:CBS data derived from GBAPERSOONTAB - GBAHERKOMSTGROEPERING
+Multiperson_Household:CBS data derived from GBAHUISHOUDENSBUS - AANTALPERSHHH and INHATAB - INHAHL
+HouseholdType_Institutional:CBS data derived from GBAHUISHOUDENSBUS - TYPHH
+Employee:CBS data derived from INPATAB - INPSECJ
+Unemployment_benefit_user:CBS data derived from INPATAB - INPSECJ
+Welfare_benefit_user:CBS data derived from INPATAB - INPSECJ
+Other_social_benefit_user:CBS data derived from INPATAB - INPSECJ
+Sickness_benefit_user:CBS data derived from INPATAB - INPSECJ
+Pension_benefit_user:CBS data derived from INPATAB - INPSECJ
+Moving_count_above_1:CBS data derived from GWBTAB and GBAADRESOBJECTBUS
+Lifeevents_count_above_2:CBS data derived from GBAHUISHOUDENSBUS - TYPHH and CBS data derived from GWBTAB and GBAADRESOBJECTBUS
+Low_Income:CBS data derived from INHATAB - INHARMLAG
+Debt_Mortgage:CBS data derived from INPATAB - INPT3170RBW, INPT3180RST, INPT3190RBS
+Debt_Poor:CBS data derived from WSNPPERSBUS
+Wanbet:CBS data derived from WANBZVWTAB
+WMO_user:CBS data derived from WMOBUS
+WLZ_user:CBS data derived from GEBWLZTAB
+ZVWKHUISARTS_user:CBS data derived from ZVWZORGKOSTENTAB - ZVWKHUISARTS, NOPZVWKHUISARTSINSCHRIJF
+ZVWKFARMACIE_user:CBS data derived from ZVWZORGKOSTENTAB - ZVWKFARMACIE
+ZVWKZIEKENHUIS_user:CBS data derived from ZVWZORGKOSTENTAB - ZVWKZIEKENHUIS
+ZVWKOSTENPSYCHO_user:CBS data derived from ZVWZORGKOSTENTAB - ZVWKGGZ, ZVWKGENBASGGZ, ZVWKSPECGGZ
+HVZ_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+UniqueMed_Count_5:CBS data derived from MEDICIJNTAB - ATC4
+UniqueMed_Count_10:CBS data derived from MEDICIJNTAB - ATC4
+DIAB_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+BLOEDDRUKV_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+CHOL_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+DIURETICS_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+DIURETICS_RAAS_BETA_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+OPIOID_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+OPIOID_MULYEARS_Medication_user:CBS data derived from MEDICIJNTAB - ATC4
+Opioid_user_no_death:CBS data derived from MEDICIJNTAB - ATC4 and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Opioid_user_no_death_primary:ELAN data derived from MED - ATC, dATC and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Opioid_user_2Years_no_death:CBS data derived from MEDICIJNTAB - ATC4 and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Opioid_user_2Years_no_death_primary:ELAN data derived from MED - ATC, dATC and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Opioid_user_no_death_comb:ELAN data derived from MED - ATC, dATC; CBS data derived from MEDICIJNTAB - ATC4 and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Opioid_user_2Years_no_death_comb:ELAN data derived from MED - ATC, dATC; CBS data derived from MEDICIJNTAB - ATC4 and CBS data derived from GBAOVERLIJDENTAB - GBADatumOverlijden
+Hypertensie_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+COPD_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Diabetes_I_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Diabetes_II_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Hartfalen_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+OMA_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Morbus_Parkinson_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Heupfractuur_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+BMIUP45_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Lung_Cancer_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Colon_Cancer_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Back_pain_patients:CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+ICPC_Hartfalen_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Medication_Dependency_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Alcohol_Dependency_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Loneliness_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+ICPC_Obesitas_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+BMI_NormalWeight:ELAN data derived from LAB - dWCIANummer, Resultaat
+BMI_Obese:ELAN data derived from LAB - dWCIANummer, Resultaat
+BMI_OverWeight:ELAN data derived from LAB - dWCIANummer, Resultaat
+BMI_UnderWeight:ELAN data derived from LAB - dWCIANummer, Resultaat
+Medication_Dependency_3Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Medication_Dependency_5Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Alcohol_Dependency_3Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Alcohol_Dependency_5Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Loneliness_3Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Loneliness_5Years_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC
+Hartfalen_PrimarynSecondary_patients:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC; and CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Primary_care_patients_in_Secondary_care:ELAN data derived from PAT - RINPERSOON; and CBS data derived from MSZSUBTRAJECTENTAB - RINPERSOON, MSZSTRBegindatumDBC and MSZPRESTATIESVEKTTAB - RINPERSOON, VEKTMSZBegindatumZT
+Proxy_Primary_care_refer_to_Secondary_care:ELAN data derived from PAT - RINPERSOON; and CBS data derived from MSZSUBTRAJECTENTAB - RINPERSOON, MSZSTRBegindatumDBC and MSZPRESTATIESVEKTTAB - RINPERSOON, VEKTMSZBegindatumZT
+JGDHULP_user:CBS data derived from JGDHULPBUS - RINPERSOON
+GEDETINEERDENTAB:CBS data derived from GEDETINEERDENTAB - RINPERSOON
+SHNTAB:CBS data derived from SHNTAB - RINPERSOON
+HBOPL_Low:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HBMETNIRWO, OPLNIVSOI2021AGG4HBmetNIRWO
+HBOPL_Mid:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HBMETNIRWO, OPLNIVSOI2021AGG4HBmetNIRWO
+HBOPL_High:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HBMETNIRWO, OPLNIVSOI2021AGG4HBmetNIRWO
+HGOPL_Low:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HGMETNIRWO, OPLNIVSOI2021AGG4HGmetNIRWO
+HGOPL_Mid:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HGMETNIRWO, OPLNIVSOI2021AGG4HGmetNIRWO
+HGOPL_High:CBS data derived from HOOGSTEOPLTAB - OPLNIVSOI2016AGG4HGMETNIRWO, OPLNIVSOI2021AGG4HGmetNIRWO
+AGE_MEAN:CBS data derived from GBAPERSOONTAB - GBAGEBOORTEJAAR, GBAGEBOORTEMAAND, GBAGEBOORTEDAG
+Income_MEAN:CBS data derived from INHATAB - INHGESTINKH
+Moving_Count_MEAN:CBS data derived from GWBTAB and GBAADRESOBJECTBUS
+Lifeevents_Count_MEAN:CBS data derived from GBAHUISHOUDENSBUS - TYPHH and CBS data derived from GWBTAB and GBAADRESOBJECTBUS
+UniqueMed_Count_MEAN:CBS data derived from MEDICIJNTAB - ATC4
+ZVWKOSTENTOTAAL_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKHUISARTS, ZVWKFARMACIE, ZVWKZIEKENHUIS, ZVWKMONDZORG, ZVWKPARAMEDISCH, ZVWKHULPMIDDEL, ZVWKZIEKENVERVOER, ZVWKGEBOORTEZORG, ZVWKBUITENLAND, ZVWKOVERIG, ZVWKEERSTELIJNSPSYCHO, ZVWKGGZ, ZVWKGENBASGGZ, ZVWKSPECGGZ, ZVWKGERIATRISCH, ZVWKWYKVERPLEGING
+ZVWKHUISARTS_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKHUISARTS
+ZVWKHUISARTS_NO_REG_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKHUISARTS, NOPZVWKHUISARTSINSCHRIJF
+ZVWKZIEKENHUIS_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKZIEKENHUIS
+ZVWKFARMACIE_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKFARMACIE
+ZVWKOSTENPSYCHO_MEAN:CBS data derived from ZVWZORGKOSTENTAB - ZVWKGGZ, ZVWKGENBASGGZ, ZVWKSPECGGZ
+Primary_care_patients_in_Secondary_care:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC and CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie
+Proxy_Primary_care_refer_to_Secondary_care:ELAN data derived from EPI - ICPC, dICPC and JOR - ICPC, dICPC and CBS data derived from MSZSUBTRAJECTENTAB - MSZSTRSpecialismeDiagnoseCombinatie and MSZPRESTATIESVEKTTAB - VEKTMSZSpecialismeDiagnoseCombinatie

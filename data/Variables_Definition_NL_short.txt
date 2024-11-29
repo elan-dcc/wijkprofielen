@@ -1,0 +1,40 @@
+Total_Population:Totale bevolking van de buurt in het gekozen jaar
+Total_ICPCPat_Pop:Totale populatie geregistreerd in de ELAN-patient gegevens van de buurt in het gekozen jaar
+%_Gender_Mannen:Totaal aantal mannelijke bevolking
+%_Gender_Vrouwen:Totaal aantal mannelijke bevolking
+%_0to20:Totaal aantal bevolking met leeftijd tussen 0 en 20
+%_21to40:Totaal aantal bevolking met leeftijd tussen 21 en 40
+%_41to60:Totaal aantal bevolking met leeftijd tussen 41 en 60
+%_61to80:Totaal aantal bevolking met leeftijd tussen 61 en 80
+%_Above80:Totaal aantal bevolking met leeftijd boven 80
+AGE_MEAN:Gemiddelde leeftijd van de bevolking per regio
+%_MajorEthnicity_Native Dutch:Totaal aantal bevolking met Native Dutch Ethnicity
+%_HBOPL_Low:Totaal aantal personen met een laag niveau van behaald opleiding (hbopl_1111 of hbopl_1112 of hbopl_1211 of hbopl_1212 of hbopl_1213 of hbopl_1221 of hbopl_1222)
+%_HBOPL_Mid:Totaal aantal personen met een middelbaar niveau van behaald opleiding (hbopl_2111 of hbopl_2112 of hbopl_2121 of hbopl_2131 of hbopl_2132)
+%_HBOPL_High:Totaal aantal personen met een hoog niveau van behaald opleiding(hbopl_3111 of hbopl_3112 of hbopl_3113 of hbopl_3212 of hbopl_3213)
+%_HGOPL_Low:Totaal aantal personen met een laag niveau van gestart opleiding (hgopl_1111 of hgopl_1112 of hgopl_1211 of hgopl_1212 of hgopl_1213 of hgopl_1221 of hgopl_1222)
+%_HGOPL_Mid:Totaal aantal personen met een middelbaar niveau van gestart opleiding (hgopl_2111 of hgopl_2112 of hgopl_2121 of hgopl_2131 of hgopl_2132)
+%_HGOPL_High:Totaal aantal personen met een hoog niveau van gestart opleiding (hgopl_3111 of hgopl_3112 of hgopl_3113 of hgopl_3212 of hgopl_3213)
+Income_MEAN:Gemiddeld gezinsinkomen van de bevolking per regio, gecorrigeerd voor inflatie door CBS
+%_Multiperson_Household:Totaal aantal inwoners met meer dan 1 persoon binnen het huishouden
+%_HouseholdType_Institutional:Totaal aantal inwoners dat in een institutioneel huishouden woonde
+%_ZVWKHUISARTS_user:Totaal aantal personen dat ZVWKHUISARTS meer dan 0 heeft
+%_ZVWKFARMACIE_user:Totaal aantal personen dat ZVWKFARMACIE meer dan 0 heeft
+%_ZVWKZIEKENHUIS_user:Totaal aantal personen dat ZVWKZIEKENHUIS meer dan 0 heeft
+%_ZVWKOSTENPSYCHO_user:Totaal aantal personen dat ZVWKOSTENPSYCHO meer dan 0 heeft
+%_JGDHULP_user:Totaal aantal mensen dat ooit het programma "jongerenhulp" heeft ontvangen
+ZVWKOSTENTOTAAL_MEAN:Gemiddelde totale kosten voor gezondheidszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten)
+ZVWKHUISARTS_MEAN:Gemiddelde kosten voor eerstelijnszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten)
+ZVWKHUISARTS_NO_REG_MEAN:Gemiddelde kosten voor eerstelijnszorg ten opzichte van de kosten voor basisgezondheidszorg (ZVW Kosten) zonder de kosten voor basisregistratie (NOPZVWKHUISARTSINSCHRIJF) - alleen service kosten
+ZVWKZIEKENHUIS_MEAN:Gemiddelde kosten voor tweedelijnszorg uit basiszorgkosten (ZVW Kosten)
+ZVWKFARMACIE_MEAN:Gemiddelde farmaceutische kosten uit basiszorgkosten (ZVW Kosten)
+ZVWKOSTENPSYCHO_MEAN:Gemiddelde kosten voor psychologische zorg uit basiszorgkosten (ZVW Kosten)
+%_HVZ_Medication_user:Totaal aantal personen met CVD-medicatie op ATC4 (A10* of B01* of C01* of C02* of C03* of C04* of C07* of C08* of C09* of C10*)
+%_UniqueMed_Count_>=5:Totaal aantal personen met unieke ATC4-code per persoon groter dan of gelijk aan 5 (polyfarmacie)
+%_UniqueMed_Count_>=10:Totaal aantal personen met unieke ATC4-code per persoon groter dan of gelijk aan 10 (polyfarmacie)
+%_DIAB_Medication_user:Totaal aantal personen met diabetesmedicatie op ATC4 (A10B*)
+%_BLOEDDRUKV_Medication_user:Totaal aantal personen met bloeddrukverlagende medicatie op ATC4 (C03* of C07* of C08* of C09*)
+%_CHOL_Medication_user:Totaal aantal personen met cholesterolverlagende medicatie op ATC4 (C10*)
+%_DIURETICS_Medication_user:Totaal aantal personen met bloeddrukverlagende medicatie op ATC4 (C03*)
+%_DIURETICS_RAAS_BETA_Medication_user:Totaal aantal mensen met bloeddrukverlagende medicatie op ATC4 (C03* en C07* en C09*)
+%_Opioid_user_2Years_no_death:Totaal aantal levende mensen met opioide medicatie op ATC4 (N01A of N02A) gedurende twee opeenvolgende jaren, te beginnen met het huidige en vorig jaar

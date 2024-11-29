@@ -1,0 +1,43 @@
+Total_Population:Totale bevolking
+Total_ICPCPat_Pop:Totaal ELAN-geregistreerde personen
+Gender_Mannen:Gender Mannen
+Gender_Vrouwen:Gender Vrouwen
+0to20:Leeftijd 0to20
+21to40:Leeftijd 21to40
+41to60:Leeftijd 41to60
+61to80:Leeftijd 61to80
+Above80:Leeftijd boven 80
+AGE_MEAN:Gemiddelde leeftijd
+MajorEthnicity_NativeDutch:Etniciteit Native Nederlands
+MajorEthnicity_Other:Etniciteit niet Nederlands
+HBOPL_Low:Opleiding Behaald Laag
+HBOPL_Mid:Opleiding Behaald Gemiddeld
+HBOPL_High:Opleiding Behaald Hoog
+HGOPL_Low:Opleiding Gestart Laag
+HGOPL_Mid:Opleiding Gestart Midden
+HGOPL_High:Opleiding Gestart Hoog
+Income_MEAN:Gemiddeld inkomen
+Multiperson_Household:Huishouden Multiperson
+HouseholdType_Institutional:Huishouden Institutioneel
+ZVWKHUISARTS_user:ZVWKHUISARTS gebruiker
+ZVWKFARMACIE_user:ZVWKFARMACIE gebruiker
+ZVWKZIEKENHUIS_user:ZVWKZIEKENHUIS gebruiker
+ZVWKOSTENPSYCHO_user:ZVWKOSTENPSYCHO gebruiker
+JGDHULP_user:JGDHULP Persoon
+ZVWKOSTENTOTAAL_MEAN:Gemiddelde totale kosten voor gezondheidszorg
+ZVWKHUISARTS_MEAN:Gemiddelde kosten voor eerstelijnszorg
+ZVWKHUISARTS_NO_REG_MEAN:Gemiddelde kosten voor eerstelijnszorg geleverde diensten
+ZVWKZIEKENHUIS_MEAN:Gemiddelde kosten voor tweedelijnszorg
+ZVWKFARMACIE_MEAN:Gemiddelde kosten voor geneesmiddelen
+ZVWKOSTENPSYCHO_MEAN:Gemiddelde kosten voor psychologische zorg
+HVZ_Medication_user:HVZ gerelateerde medicatie gebruiker
+UniqueMed_Count_5:Polyfarmacie > 5 ATC
+UniqueMed_Count_10:Polyfarmacie > 10 ATC
+DIAB_Medication_user:Gebruiker van diabetes verlagende medicatie
+BLOEDDRUKV_Medication_user:Gebruiker van bloed verlagende medicatie
+CHOL_Medication_user:Gebruiker van cholesterol verlagende medicatie
+DIURETICS_Medication_user:Gebruiker van DIURETICS-medicatie
+DIURETICS_RAAS_BETA_Medication_user:Gebruiker van DIURETICS-, RAAS- en BETA-medicatie
+Opioid_user_2Years_no_death:In leven Opioide medicatie gebruiker langer dan 2 jaar
+Primary_care_patients_in_Secondary_care:*Huisartspatiënten in de tweedelijnszorg
+Proxy_Primary_care_refer_to_Secondary_care:*Proxyverwijzing van de eerstelijnszorg naar de tweedelijnszorg
